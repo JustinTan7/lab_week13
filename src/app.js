@@ -4,3 +4,9 @@ divButton.forEach(element => element.addEventListener('click', (evt) => {
     const one = evt.target.parentElement.outerHTML
     copyContainer.insertAdjacentHTML('beforeend', one)
 }))
+
+const clearCopies = document.querySelector('button')
+
+clearCopies.addEventListener('click', () => {
+    copyContainer.innerHTML = '';
+})
