@@ -20,4 +20,16 @@ body {
 
 .original-container div {
     margin: 10px;
-} 
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+
+.copies {
+    display: flex;
+    flex-direction: column;
+    
+}
